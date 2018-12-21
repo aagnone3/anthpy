@@ -40,7 +40,7 @@ pypi_test: build
 
 .PHONY: pypi
 pypi: build
-	twine upload --verbose dist/*
+	twine upload dist/*
 
 .PHONY: test
 test:
